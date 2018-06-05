@@ -1,5 +1,6 @@
 page('/', function() {
   page.redirect('/what-is-vegemite');
+  documemt.getElementById('info_heading').focus();
 });
 
 page('/:slug', function(context) {
